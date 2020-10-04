@@ -99,6 +99,8 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       title: 'Top 10 Bacteria Cultures Found', 
+      paper_bgcolor: '#F0F8FF',
+      plot_bgcolor: '#F0F8FF'
     };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
@@ -123,7 +125,9 @@ function buildCharts(sample) {
       xaxis: {
         title: "OTU ID"
       },
-      hovermode: 'closest'
+      hovermode: 'closest',
+      paper_bgcolor: '#F0F8FF',
+      plot_bgcolor: '#F0F8FF'
     };
 
     // 3. Use Plotly to plot the data with the layout.
@@ -157,6 +161,8 @@ function buildCharts(sample) {
       title: { text: "Belly Button Washing Frequency <br> Scrubs Per Week"},
       width: 500,
       height: 400,
+      plot_bgcolor: '#F0F8FF',
+      paper_bgcolor: '#F0F8FF',
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
