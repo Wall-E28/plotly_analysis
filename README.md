@@ -7,4 +7,4 @@ This project analyzes data related to belly button biodiversity. By using HTML a
 
  Here is the dashboard:
 
-![Dashboard_Overview]("https://github.com/Wall-E28/plotly_analysis/blob/master/resources/Dashboard%20Overview.png")
+![Dashboard_Overview](https://github.com/Wall-E28/plotly_analysis/blob/master/resources/Dashboard%20Overview.png)
